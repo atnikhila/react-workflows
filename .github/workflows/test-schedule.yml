@@ -1,0 +1,9 @@
+name: Manual work flow
+on:
+    workflow_dispatch:
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Test Debug
+              run: echo "Manual Workflow Run"
