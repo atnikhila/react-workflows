@@ -2,7 +2,7 @@ name: React Project Artifact
 on:
     push:
         branches:
-            - main
+            - main   #check
 jobs:
     build:
         runs-on: ubuntu-latest
